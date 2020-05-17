@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdmitKard
+    </title>
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet"/>
+    <!--materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <!--actual materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <!--custom css-->
+    <link  rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo" style="font-family: 'Indie Flower'">AdmitKard</a>
+            
+    </section>
+    <section class="fslider">
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="wall-1846969_1920.jpg" alt="image two">
+              <div class="caption centrt-align black-text">
+                <h3 style="color:white">OTP VERIFICATION</h3>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    <section class="fcard " >
+    <div class="row">
+        <div class="col l4 s12 m6"></div>
+        <div class="col l4 s12 m6">
+          <div class="card center">
+            <div class="card-content ">
+              <span class="card-title white">OTP VERIFICATION</span>
+              <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Your Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate">
+                      <label for="icon_telephone">Mobile No.</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="card-action">
+                <!-- Modal Trigger -->
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">SEND OTP</a>
+
+                 <!-- Modal Structure -->
+                 <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>your OTP has sent</h4>
+                            
+                     </div>
+                    <div class="modal-footer">
+                        <a href="#" class="modal-close waves-effect btn-flat">close</a>
+                     </div>
+                     </div>
+                 
+                 <a class="waves-effect waves-light btn modal-trigger" href="#modal2">VERIFY OTP</a>
+
+                 <!-- Modal Structure -->
+                 <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <h4>ENTER OTP</h4>
+                        <input id="tocheck">
+
+                        <button class="waves-effect waves-light btn modal-trigger" type="button" onclick="myFunction()">Submit</button>
+
+                        <p id="otp"></p>
+                            
+                     </div>
+                    <div class="modal-footer">
+                        <a href="#" class="modal-close waves-effect btn-flat">close</a>
+                     </div>
+                     </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col l3 s12 m6"></div>
+      </div>
+    </section>
+    
+
+ 
+</body>
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js"></script>
+<!--materialize script-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--custom js-->
+<script src="loader.js"></script>
+            
+</html>
